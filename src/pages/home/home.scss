@@ -1,0 +1,46 @@
+page-home {
+	$dimensions: 100px;
+
+	.scroll-content {
+		padding-top: 100px;
+		background-color: lightgrey;
+	}
+
+	[logo] {
+		width: 100px;
+	}
+
+	ion-card.card {
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+
+		position: relative;
+		overflow: visible;
+
+		min-height: $dimensions;
+	}
+
+	ion-grid {
+		min-height: 100%;
+		justify-content: center;
+	}
+
+	button[login] {
+		color: green;
+		font-size: 1.5em;
+
+		margin-top: 3rem;
+		margin-bottom: 1.5rem;
+	}
+
+	[forgotten-password] {
+		text-align: center;
+		font-weight: bold;
+
+		padding-top: 2rem;
+	}	
+}
+
+	
+

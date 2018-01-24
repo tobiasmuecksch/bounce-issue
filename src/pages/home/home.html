@@ -1,0 +1,42 @@
+<ion-content padding>
+	<ion-grid full-height>
+		<ion-row>
+			<ion-col text-center>
+				<img src="assets/imgs/logo.png" logo>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col>
+				<ion-card>
+
+					<ion-card-header>
+						LOGIN
+					</ion-card-header>
+
+					<ion-card-content>
+						<form name="login-form" (ngSubmit)="login()">
+							<div form-group>
+								<label>EMAIL</label>
+								<!--input type="email" value=""-->
+							</div>
+
+							<div form-group>
+								<label>PASSWORD</label>
+								<!--input type="password" value=""-->
+							</div>
+
+							<button ion-button clear login full>
+								SIGN IN
+							</button>
+						</form>
+					</ion-card-content>
+				</ion-card>
+
+				<div forgotten-password>
+					FORGOTTEN PASSWORD?
+				</div>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+</ion-content>
+	
